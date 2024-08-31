@@ -14,6 +14,7 @@ var (
 )
 
 func Populate() map[rune]([]string) {
+	Replace = map[rune]([]string){}
 	_, _, Banner = Input()
 	content, err = os.ReadFile("ascii/Banner/" + Banner)
 	if err != nil {
